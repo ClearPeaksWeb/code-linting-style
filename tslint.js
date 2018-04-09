@@ -27,7 +27,6 @@ module.exports = {
         named: 'never', // 19.3
       },
     ],
-    'no-parameter-reassignment': true, // 7.12
     // align: [
     //   true,
     //   'arguments',
