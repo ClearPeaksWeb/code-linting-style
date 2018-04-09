@@ -33,40 +33,40 @@ module.exports = {
     //   'arguments',
     //   'parameters',
     // ], // 7.15
-    // 'ter-prefer-arrow-callback': [true], // 8.1
-    // 'arrow-parens': false, // 8.2
-    // 'ter-arrow-parens': [
-    //   true,
-    //   'as-needed',
-    //   { 'requireForBlockBody': true },
-    // ], // 8.4
+    'ter-prefer-arrow-callback': [true], // 8.1
+    'arrow-parens': false, // 8.2
+    'ter-arrow-parens': [
+      true,
+      'as-needed',
+      { 'requireForBlockBody': true },
+    ], // 8.4
     'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [true, 'ignore-for-loop'], // 13.2
     // 'no-increment-decrement': true, // 13.6
     'triple-equals': [true, 'allow-null-check'], // 15.1
-    // 'no-boolean-literal-compare': true, // 15.3
-    // curly: [true, 'ignore-same-line'], // 16.1
-    // 'brace-style': [
-    //   true,
-    //   '1tbs',
-    //   { allowSingleLine: true },
-    // ], // 16.2
-    // 'no-else-after-return': true, // 16.3
+    'no-boolean-literal-compare': true, // 15.3
+    curly: [true, 'ignore-same-line'], // 16.1
+    'brace-style': [
+      true,
+      '1tbs',
+      { allowSingleLine: true },
+    ], // 16.2
+    'no-else-after-return': true, // 16.3
     'comment-format': [true, 'check-space'], // 18.3
     indent: [true, 'space'], // 19.1
-    // 'ter-indent': [
-    //   true,
-    //   2,
-    //   { 'SwitchCase': 1 },
-    // ], // 19.1
-    // whitespace: [
-    //   true,
-    //   'check-branch', // 19.3
-    //   'check-decl', // 19.4
-    //   'check-operator', // 19.4
-    //   'check-preblock', // 19.2
-    // ],
-    // eofline: true, // 19.5
+    'ter-indent': [
+      true,
+      2,
+      { 'SwitchCase': 1 },
+    ], // 19.1
+    whitespace: [
+      true,
+      'check-branch', // 19.3
+      'check-decl', // 19.4
+      'check-operator', // 19.4
+      'check-preblock', // 19.2
+    ],
+    eofline: true, // 19.5
     'space-in-parens': [true, 'never'], // 19.9
     'array-bracket-spacing': [true, 'never'], // 19.10
     'object-curly-spacing': [true, 'always'], // 19.11
@@ -79,7 +79,7 @@ module.exports = {
       },
     ], // 20.2
     semicolon: [true, 'always'], // 21.1
-    // 'no-construct': true, // 22.2, 22.3, 22.6
+    'no-construct': true, // 22.2, 22.3, 22.6
     // radix: true, // 22.3
     'function-name': [
       true,
@@ -92,7 +92,7 @@ module.exports = {
       }, // 23.1
     ],
     'variable-name': [true, 'check-format'], // 23.2
-    'no-this-assignment': true, // 23.5
+    // 'no-this-assignment': true, // 23.5
     'import-name': true, // 23.6
   },
 };
