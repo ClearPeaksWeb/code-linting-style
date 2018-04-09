@@ -22,6 +22,11 @@ module.exports = {
     ], // 8.4
     'comment-format': [true, 'check-space'], // 18.3
     indent: [true, 'space'], // 19.1
+    'ter-indent': [
+      true,
+      2,
+      { 'SwitchCase': 1 },
+    ], // 19.1
     whitespace: [
       true,
       'check-branch', // 19.3
