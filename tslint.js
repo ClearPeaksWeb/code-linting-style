@@ -91,7 +91,7 @@ module.exports = {
         'static-method-regex': /^[a-z$][\w\d]+$/,
       }, // 23.1
     ],
-    'variable-name': [true, 'check-format'], // 23.2
+    // 'variable-name': [true, 'check-format'], // 23.2  // this would be great but we depend many times on backend variables
     // 'no-this-assignment': true, // 23.5
     'import-name': true, // 23.6
   },
