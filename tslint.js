@@ -70,7 +70,7 @@ module.exports = {
     'space-in-parens': [true, 'never'], // 19.9
     'array-bracket-spacing': [true, 'never'], // 19.10
     'object-curly-spacing': [true, 'always'], // 19.11
-    'max-line-length': [true, 100], // 19.12
+    'max-line-length': [true, 120], // 19.12
     'trailing-comma': [
       true,
       {
