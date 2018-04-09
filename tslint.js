@@ -74,7 +74,7 @@ module.exports = {
     'trailing-comma': [
       true,
       {
-        multiline: 'always',
+        multiline: 'never',
         singleline: 'never',
       },
     ], // 20.2
