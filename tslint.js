@@ -25,7 +25,6 @@ module.exports = {
     ],
     "align": [
       true,
-      "arguments",
       "parameters",
       "statements"
     ],
