@@ -14,12 +14,6 @@ module.exports = {
         named: 'never',
       },
     ],
-    'arrow-parens': false,
-    'ter-arrow-parens': [
-      true,
-      'as-needed',
-      { 'requireForBlockBody': true },
-    ],
     'comment-format': [true, 'check-space'],
     indent: [true, 'space'],
     'ter-indent': [

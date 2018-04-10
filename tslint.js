@@ -54,12 +54,6 @@ module.exports = {
     ],
     "no-arg": true,
     'ter-prefer-arrow-callback': [true],
-    // 'arrow-parens': false,
-    // 'ter-arrow-parens': [
-    //   true,
-    //   'as-needed',
-    //   { 'requireForBlockBody': true },
-    // ],
     'arrow-parens': [
       true,
       'as-needed',
