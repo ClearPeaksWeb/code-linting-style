@@ -47,6 +47,10 @@ module.exports = {
     ],
     semicolon: [true, 'always'],
   },
-  'arrow-parens': false,
   'prefer-const': true,
+  'arrow-parens': [
+    true,
+    'as-needed',
+    { 'requireForBlockBody': true },
+  ],
 };
