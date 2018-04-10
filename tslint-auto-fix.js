@@ -47,4 +47,5 @@ module.exports = {
     'as-needed',
     { 'requireForBlockBody': true }
   ],
+  'comment-format': [true, 'check-space']
 };
