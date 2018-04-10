@@ -65,24 +65,24 @@ module.exports = {
     "brace-style": [
       true,
       "1tbs",
-      { allowSingleLine: true },
+      { "allowSingleLine": true },
     ],
     "no-else-after-return": true,
     "comment-format": [true, "check-space"],
-    indent: [true, "space"],
+    "indent": [true, "space"],
     "ter-indent": [
       true,
       2,
       { "SwitchCase": 1 },
     ],
-    whitespace: [
+    "whitespace": [
       true,
       "check-branch",
       "check-decl",
       "check-operator",
       "check-preblock",
     ],
-    eofline: true,
+    "eofline": true,
     "space-in-parens": [true, "never"],
     "array-bracket-spacing": [true, "never"],
     "object-curly-spacing": [true, "always"],
