@@ -61,8 +61,7 @@ module.exports = {
     "no-duplicate-imports": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "triple-equals": [true, "allow-null-check"],
-    "no-boolean-literal-compare": true,
-    curly: [true, "ignore-same-line"],
+    "curly": [true, "ignore-same-line"],
     "brace-style": [
       true,
       "1tbs",

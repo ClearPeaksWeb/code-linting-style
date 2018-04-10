@@ -41,10 +41,10 @@ module.exports = {
     ],
     semicolon: [true, "always"],
   },
-  "prefer-const": true,
   "ter-arrow-parens": [
     true,
     "as-needed",
     { "requireForBlockBody": true }
-  ]
+  ],
+  "triple-equals": [true, "allow-null-check"]
 };
