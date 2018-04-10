@@ -121,9 +121,6 @@ module.exports = {
       "trace"
     ],
     "no-debugger": true,
-    "no-duplicate-variable": true,
-    "no-unused-variable": [
-      true
-    ],
+    "no-duplicate-variable": true
   },
 };
