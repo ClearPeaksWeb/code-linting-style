@@ -47,5 +47,6 @@ module.exports = {
     ],
     semicolon: [true, 'always'],
   },
-  'arrow-parens': false
+  'arrow-parens': false,
+  'prefer-const': true,
 };
