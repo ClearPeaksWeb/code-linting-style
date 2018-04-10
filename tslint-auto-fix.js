@@ -46,5 +46,6 @@ module.exports = {
     "as-needed",
     { "requireForBlockBody": true }
   ],
-  "triple-equals": [true, "allow-null-check"]
+  "triple-equals": [true, "allow-null-check"],
+  "no-consecutive-blank-lines": [true, 1]
 };

@@ -107,10 +107,7 @@ module.exports = {
       },
     ],
     "import-name": true,
-    "no-consecutive-blank-lines": [
-      true,
-      1
-    ],
+    "no-consecutive-blank-lines": [true, 1],
     "no-console": [
       true,
       "debug",
