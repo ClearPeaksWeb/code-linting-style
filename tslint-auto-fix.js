@@ -51,6 +51,6 @@ module.exports = {
   'arrow-parens': [
     true,
     'as-needed',
-    { 'requireForBlockBody': true },
+    { 'requireForBlockBody': true }
   ],
 };

@@ -63,7 +63,7 @@ module.exports = {
     'arrow-parens': [
       true,
       'as-needed',
-      { 'requireForBlockBody': true },
+      { 'requireForBlockBody': true }
     ],
     'no-duplicate-imports': true,
     'one-variable-per-declaration': [true, 'ignore-for-loop'],
