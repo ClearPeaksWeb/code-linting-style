@@ -1,26 +1,26 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   rulesDirectory: [
-    path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
-    path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
-    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
+    path.join(path.dirname(require.resolve("tslint-consistent-codestyle")), "./"),
+    path.join(path.dirname(require.resolve("tslint-eslint-rules")), "dist/rules"),
+    path.join(path.dirname(require.resolve("tslint-microsoft-contrib")), "./"),
   ],
   rules: {
-    'prefer-const': true,
-    'no-var-keyword': true,
+    "prefer-const": true,
+    "no-var-keyword": true,
     quotemark: [
       true,
-      'single',
-      'jsx-double',
+      "single",
+      "jsx-double",
     ],
-    'no-eval': true,
-    'no-function-constructor-with-string-args': true,
-    'space-before-function-paren': [
+    "no-eval": true,
+    "no-function-constructor-with-string-args": true,
+    "space-before-function-paren": [
       true,
       {
-        anonymous: 'always',
-        named: 'never',
+        anonymous: "always",
+        named: "never",
       },
     ],
     "align": [
@@ -53,62 +53,62 @@ module.exports = {
       ]
     ],
     "no-arg": true,
-    'ter-prefer-arrow-callback': [true],
-    'arrow-parens': [
+    "ter-prefer-arrow-callback": [true],
+    "ter-arrow-parens": [
       true,
-      'as-needed',
-      { 'requireForBlockBody': true }
+      "as-needed",
+      { "requireForBlockBody": true }
     ],
-    'no-duplicate-imports': true,
-    'one-variable-per-declaration': [true, 'ignore-for-loop'],
-    'triple-equals': [true, 'allow-null-check'],
-    'no-boolean-literal-compare': true,
-    curly: [true, 'ignore-same-line'],
-    'brace-style': [
+    "no-duplicate-imports": true,
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
+    "triple-equals": [true, "allow-null-check"],
+    "no-boolean-literal-compare": true,
+    curly: [true, "ignore-same-line"],
+    "brace-style": [
       true,
-      '1tbs',
+      "1tbs",
       { allowSingleLine: true },
     ],
-    'no-else-after-return': true,
-    'comment-format': [true, 'check-space'],
-    indent: [true, 'space'],
-    'ter-indent': [
+    "no-else-after-return": true,
+    "comment-format": [true, "check-space"],
+    indent: [true, "space"],
+    "ter-indent": [
       true,
       2,
-      { 'SwitchCase': 1 },
+      { "SwitchCase": 1 },
     ],
     whitespace: [
       true,
-      'check-branch',
-      'check-decl',
-      'check-operator',
-      'check-preblock',
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-preblock",
     ],
     eofline: true,
-    'space-in-parens': [true, 'never'],
-    'array-bracket-spacing': [true, 'never'],
-    'object-curly-spacing': [true, 'always'],
-    'max-line-length': [true, 120],
-    'trailing-comma': [
+    "space-in-parens": [true, "never"],
+    "array-bracket-spacing": [true, "never"],
+    "object-curly-spacing": [true, "always"],
+    "max-line-length": [true, 120],
+    "trailing-comma": [
       true,
       {
-        multiline: 'never',
-        singleline: 'never',
+        multiline: "never",
+        singleline: "never",
       },
     ],
-    semicolon: [true, 'always'],
-    'no-construct': true,
-    'function-name': [
+    semicolon: [true, "always"],
+    "no-construct": true,
+    "function-name": [
       true,
       {
-        'function-regex': /^[a-z$][\w\d]+$/,
-        'method-regex': /^[a-z$][\w\d]+$/,
-        'private-method-regex': /^[a-z$][\w\d]+$/,
-        'protected-method-regex': /^[a-z$][\w\d]+$/,
-        'static-method-regex': /^[a-z$][\w\d]+$/,
+        "function-regex": /^[a-z$][\w\d]+$/,
+        "method-regex": /^[a-z$][\w\d]+$/,
+        "private-method-regex": /^[a-z$][\w\d]+$/,
+        "protected-method-regex": /^[a-z$][\w\d]+$/,
+        "static-method-regex": /^[a-z$][\w\d]+$/,
       },
     ],
-    'import-name': true,
+    "import-name": true,
     "no-consecutive-blank-lines": [
       true,
       1
