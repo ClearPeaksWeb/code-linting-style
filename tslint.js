@@ -65,12 +65,7 @@ module.exports = {
     ],
     "no-else-after-return": true,
     "comment-format": [true, "check-space"],
-    "indent": [true, "space"],
-    "ter-indent": [
-      true,
-      2,
-      { "SwitchCase": 1 },
-    ],
+    "indent": [true, "spaces", 2],
     "whitespace": [
       true,
       "check-branch",
