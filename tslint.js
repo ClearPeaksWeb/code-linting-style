@@ -53,11 +53,7 @@ module.exports = {
     ],
     "no-arg": true,
     "ter-prefer-arrow-callback": [true],
-    "ter-arrow-parens": [
-      true,
-      "as-needed",
-      { "requireForBlockBody": true }
-    ],
+    "ter-arrow-parens": [true, "as-needed"],
     "no-duplicate-imports": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "triple-equals": [true, "allow-null-check"],

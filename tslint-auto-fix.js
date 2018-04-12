@@ -41,11 +41,7 @@ module.exports = {
     ],
     semicolon: [true, "always"],
   },
-  "ter-arrow-parens": [
-    true,
-    "as-needed",
-    { "requireForBlockBody": true }
-  ],
+  "ter-arrow-parens": [true, "as-needed"],
   "triple-equals": [true, "allow-null-check"],
   "no-consecutive-blank-lines": [true, 1],
   "eofline": true
