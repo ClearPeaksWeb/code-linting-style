@@ -41,7 +41,7 @@ module.exports = {
     ],
     semicolon: [true, "always"],
   },
-  "ter-arrow-parens": [true, "as-needed"],
+  "arrow-parens": [true, "ban-single-arg-parens"],
   "triple-equals": [true, "allow-null-check"],
   "no-consecutive-blank-lines": [true, 1],
   "eofline": true

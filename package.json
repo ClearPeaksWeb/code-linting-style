@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-clearpeaks",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "A TSLint config for ClearPeaks",
   "main": "index.js",
   "scripts": {

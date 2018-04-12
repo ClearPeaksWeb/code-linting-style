@@ -53,7 +53,7 @@ module.exports = {
     ],
     "no-arg": true,
     "ter-prefer-arrow-callback": [true],
-    "ter-arrow-parens": [true, "as-needed"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
     "no-duplicate-imports": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "triple-equals": [true, "allow-null-check"],
