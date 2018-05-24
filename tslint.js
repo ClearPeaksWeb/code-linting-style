@@ -18,10 +18,13 @@ module.exports = {
     "no-function-constructor-with-string-args": true,
     "space-before-function-paren": [
       true,
-      {
-        anonymous: "always",
-        named: "never",
-      },
+      { 
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always",
+        "method": "never",
+        "constructor": "never"
+      }
     ],
     "align": [
       true,
