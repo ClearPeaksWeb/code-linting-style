@@ -1,5 +1,6 @@
 # Linters for standardize the code
 This repo contains the different configuration files and dependencies for different linters.
+
 Those files will be extended by the proper files of the projects, as is explained below.
 
 ## Install
