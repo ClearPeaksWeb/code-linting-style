@@ -1,6 +1,6 @@
 {
   "name": "@clearpeaks/tslint-config",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A TSLint config for ClearPeaks",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "husky": "^0.14.3",
     "tslint-consistent-codestyle": "^1.13.0",
     "tslint-eslint-rules": "^5.1.0",
+    "pretty-quick": "^1.6.0",
     "tslint-microsoft-contrib": "^5.0.3"
   }
 }
