@@ -1,7 +1,7 @@
 {
-  "name": "@clearpeaks/tslint-config",
+  "name": "@clearpeaks/code-linting-style",
   "version": "2.0.0",
-  "description": "A TSLint config for ClearPeaks",
+  "description": "A TSLint and Prettier config for ClearPeaks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "husky": "^0.14.3",
+    "prettier": "^1.13.5",
+    "pretty-quick": "^1.6.0",
     "tslint-consistent-codestyle": "^1.13.0",
     "tslint-eslint-rules": "^5.1.0",
-    "pretty-quick": "^1.6.0",
     "tslint-microsoft-contrib": "^5.0.3"
   }
 }
