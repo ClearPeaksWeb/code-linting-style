@@ -13,6 +13,12 @@ If you are using npm
 npm install @clearpeaks/code-linting-style --save-dev
 ```
 
+## Git Hook
+In package.json, inside of npm scripts, add the following hook to run prettier and tslint before each commit
+```
+"precommit": "pretty-quick --staged && tslint -c node_modules/@clearpeaks/code-linting-style/tslint.js 'src/**/*.ts'"
+```
+
 ## Tslint
 Create tslint config file
 ```
