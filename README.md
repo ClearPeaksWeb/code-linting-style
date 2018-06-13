@@ -1,4 +1,4 @@
-### Linters for standardize the code
+# Linters for standardize the code
 This repo contains the different configuration files and dependencies for different linters.
 Those files will be extended by the proper files of the projects, as is explained below.
 
@@ -43,7 +43,7 @@ You can find more info about prettier option/config rules [here](https://prettie
 More info about prettier configuration file [here](https://prettier.io/docs/en/configuration.html)
 
 ## Tips
-If you are using prettier in vscode, you can enable autopretiffy on save, to prettify you files after saving them
+If you are using prettier in vscode, you can enable autoprettify on save, to prettify you files after saving them
 Add the following config to the User Settings
 ```
 "editor.formatOnSave": true
