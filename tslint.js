@@ -9,11 +9,6 @@ module.exports = {
   rules: {
     "prefer-const": true,
     "no-var-keyword": true,
-    quotemark: [
-      true,
-      "single",
-      "jsx-double",
-    ],
     "no-eval": true,
     "no-function-constructor-with-string-args": true,
     "space-before-function-paren": [
@@ -60,15 +55,12 @@ module.exports = {
     "no-duplicate-imports": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "triple-equals": [true, "allow-null-check"],
-    "curly": [true, "ignore-same-line"],
     "brace-style": [
       true,
       "1tbs",
       { "allowSingleLine": true },
     ],
     "no-else-after-return": true,
-    "comment-format": [true, "check-space"],
-    "indent": [true, "spaces", 2],
     "whitespace": [
       true,
       "check-branch",
@@ -76,19 +68,9 @@ module.exports = {
       "check-operator",
       "check-preblock",
     ],
-    "eofline": true,
     "space-in-parens": [true, "never"],
     "array-bracket-spacing": [true, "never"],
     "object-curly-spacing": [true, "always"],
-    "max-line-length": [true, 120],
-    "trailing-comma": [
-      true,
-      {
-        multiline: "never",
-        singleline: "never",
-      },
-    ],
-    semicolon: [true, "always"],
     "no-construct": true,
     "function-name": [
       true,
