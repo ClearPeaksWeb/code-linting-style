@@ -70,9 +70,14 @@ More info about prettier configuration file [here](https://prettier.io/docs/en/c
 ## Tips
 
 If you are using prettier in vscode, you can enable autoprettify on save, to prettify you files after saving them
-Add the following config to the User Settings
+Add the following config to the User Settings.
+
+To avoid unwanted behaviour with prettier and html, we recommend you disable runing prettier on save for html files
 
 ```
 "editor.formatOnSave": true,
 "prettier.eslintIntegration": true,
+"[html]": {
+  "editor.formatOnSave": false
+},
 ```
