@@ -23,7 +23,7 @@ npm install @clearpeaks/code-linting-style --save-dev
 In package.json, inside of npm scripts, add the following hook to run prettier and tslint before each commit
 
 ```
-"precommit": "pretty-quick --staged && tslint -c node_modules/@clearpeaks/code-linting-style/tslint.js 'src/**/*.ts'"
+"precommit": "pretty-quick --staged && tslint -c ./tslint.json 'src/**/*.ts'"
 ```
 
 ## Tslint
@@ -72,7 +72,7 @@ More info about prettier configuration file [here](https://prettier.io/docs/en/c
 If you are using prettier in vscode, you can enable autoprettify on save, to prettify you files after saving them
 Add the following config to the User Settings.
 
-To avoid unwanted behaviour with prettier and html, we recommend you disable runing prettier on save for html files
+To avoid unwanted behaviour with prettier and html, we recommend you to disable runing prettier on save for html files
 
 ```
 "editor.formatOnSave": true,
