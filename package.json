@@ -1,6 +1,6 @@
 {
   "name": "@clearpeaks/code-linting-style",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A TSLint and Prettier config for ClearPeaks",
   "main": "index.js",
   "scripts": {

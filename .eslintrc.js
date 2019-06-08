@@ -38,7 +38,7 @@ module.exports = {
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
     "no-else-return": "error",
     "spaced-comment": "error",
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "indent": ["error", 2, { "SwitchCase": 1, "FunctionDeclaration": {"body": 1, "parameters": 2} }],
     "valid-typeof": "error",
     "eol-last": ["error", "always"],
     "space-in-parens": ["error", "never"],
