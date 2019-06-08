@@ -67,6 +67,24 @@ You can find more info about prettier option/config rules [here](https://prettie
 
 More info about prettier configuration file [here](https://prettier.io/docs/en/configuration.html)
 
+## ESLint
+
+Create eslint config file
+
+```
+touch .eslintrc.js
+```
+
+Add the following content to that file to extend from the clearpeaks package
+
+```
+module.exports = {
+  extends: ["./node_modules/@clearpeaks/code-linting-style/.eslintrc.js"]
+}
+```
+
+You can find more info about eslint rules [here](https://eslint.org/docs/rules/)
+
 ## Tips
 
 If you are using prettier in vscode, you can enable autoprettify on save, to prettify you files after saving them
