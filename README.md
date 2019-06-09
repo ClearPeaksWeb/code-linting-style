@@ -104,7 +104,10 @@ Add the following content to that file to extend from the clearpeaks package
 
 ```
 module.exports = {
-  extends: ["./node_modules/@clearpeaks/code-linting-style/.eslintrc.js"]
+  extends: [
+    "./node_modules/@clearpeaks/code-linting-style/.eslintrc.js",
+    "prettier"
+    ]
 }
 ```
 
