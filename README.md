@@ -20,11 +20,36 @@ npm install @clearpeaks/code-linting-style --save-dev
 
 ## Git Hook
 
-In package.json, inside of npm scripts, add the following hook to run prettier and tslint before each commit
+In package.json, at scripts level, add the following hook to run prettier and linter before each commit
 
 ```
-"precommit": "pretty-quick --staged && tslint -c ./tslint.json 'src/**/*.ts'"
+{
+  "scripts": {
+    ...
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && tslint -c ./tslint.json 'src/**/*.ts'"
+    }
+  }
+}
 ```
+
+#### Deprecarion warning. Upgrading from 0.14
+With the version `0` the precommit hook was being declared inside of the scripts. Please change that logic on your projects.
+```
+{
+  "scripts": {
+    "precommit": "pretty-quick --staged && tslint -c ./tslint.json 'src/**/*.ts'"   // Before (BAD)
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && tslint -c ./tslint.json 'src/**/*.ts'"    // Now (GOOD)
+    }
+  }
+}
+```
+Note: Version 1 of husky require node version >=6, while Husky 2 require node>=8, so we are keeping husky 1 for compatibility.
 
 ## Tslint
 
