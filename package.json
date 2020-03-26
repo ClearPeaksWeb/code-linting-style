@@ -1,6 +1,6 @@
 {
   "name": "@clearpeaks/code-linting-style",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "A TSLint and Prettier config for ClearPeaks",
   "main": "index.js",
   "scripts": {
@@ -13,17 +13,23 @@
     "url": "https://github.com/ClearPeaksWeb/code-linting-style"
   },
   "dependencies": {
+    "acorn": "^7.1.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
-    "prettier": "1.19.1",
+    "prettier": "2.0.1",
     "pretty-quick": "^2.0.1",
     "tslint": "^5.20.0",
     "tslint-consistent-codestyle": "^1.16.0",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-microsoft-contrib": "^6.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev "
+  }
 }
