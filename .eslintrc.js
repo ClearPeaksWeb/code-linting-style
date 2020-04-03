@@ -53,16 +53,7 @@ module.exports = {
     "array-bracket-spacing": ["error", "never"],
     "object-curly-spacing": ["error", "always"],
     "max-len": ["error", { "code": 120 }],
-    "comma-dangle": [
-      "error",
-      {
-        "arrays": "never",
-        "objects": "never",
-        "imports": "never",
-        "exports": "never",
-        "functions": "ignore"
-      }
-    ],
+    "comma-dangle": ["error", "only-multiline"],
     "semi-style": ["error", "last"],
     "semi": ["error", "always"],
     "camelcase": ["error", { "properties": "never" }],

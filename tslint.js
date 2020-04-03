@@ -61,11 +61,17 @@ module.exports = {
     'array-bracket-spacing': [true, 'never'],
     'object-curly-spacing': [true, 'always'],
     'max-line-length': [true, 120],
-    'trailing-comma': [
+    "trailing-comma": [
       true,
       {
-        multiline: 'never',
-        singleline: 'never'
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "always",
+          "typeLiterals": "always"
+        },
+        "singleline": "never",
+        "esSpecCompliant": true
       }
     ],
     semicolon: [true, 'always', 'ignore-bound-class-methods'],
