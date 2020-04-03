@@ -67,8 +67,8 @@ module.exports = {
         "multiline": {
           "objects": "always",
           "arrays": "always",
-          "functions": "always",
-          "typeLiterals": "always"
+          "functions": "never",
+          "typeLiterals": "ignore"
         },
         "singleline": "never",
         "esSpecCompliant": true
