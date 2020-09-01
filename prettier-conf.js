@@ -6,6 +6,6 @@ module.exports = {
   semi: true,
   bracketSpacing: true,
   jsxBracketSameLine: true,
-  arrowParens: "avoid",
-  trailingComma: "es5",
+  arrowParens: 'avoid',
+  trailingComma: 'es5',
 };
