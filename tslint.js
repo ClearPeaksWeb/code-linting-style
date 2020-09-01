@@ -61,17 +61,17 @@ module.exports = {
     'array-bracket-spacing': [true, 'never'],
     'object-curly-spacing': [true, 'always'],
     'max-line-length': [true, 120],
-    "trailing-comma": [
+    'trailing-comma': [
       true,
       {
-        "multiline": {
-          "objects": "always",
-          "arrays": "always",
-          "functions": "never",
-          "typeLiterals": "ignore"
+        'multiline': {
+          'objects': 'always',
+          'arrays': 'always',
+          'functions': 'never',
+          'typeLiterals': 'ignore'
         },
-        "singleline": "never",
-        "esSpecCompliant": true
+        'singleline': 'never',
+        'esSpecCompliant': true
       }
     ],
     semicolon: [true, 'always', 'ignore-bound-class-methods'],
@@ -90,6 +90,8 @@ module.exports = {
     'no-consecutive-blank-lines': [true, 1],
     'no-console': [true, 'info', 'log', 'time', 'timeEnd', 'trace'],
     'no-debugger': true,
-    'no-duplicate-variable': true
+    'no-duplicate-variable': true,
+    'no-unused-variable': true,
+    'no-shadowed-variable': true
   }
 };
