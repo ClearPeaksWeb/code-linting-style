@@ -91,7 +91,6 @@ module.exports = {
     'no-console': [true, 'info', 'log', 'time', 'timeEnd', 'trace'],
     'no-debugger': true,
     'no-duplicate-variable': true,
-    'no-unused-variable': true,
     'no-unused-expression': true,
     'no-shadowed-variable': true
   }
