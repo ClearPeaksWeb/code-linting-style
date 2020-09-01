@@ -90,6 +90,8 @@ module.exports = {
     'no-consecutive-blank-lines': [true, 1],
     'no-console': [true, 'info', 'log', 'time', 'timeEnd', 'trace'],
     'no-debugger': true,
-    'no-duplicate-variable': true
+    'no-duplicate-variable': true,
+    'no-shadowed-variable': true, 
+    'no-unused-expression': true,
   }
 };
