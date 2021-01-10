@@ -114,6 +114,15 @@ module.exports = {
 }
 ```
 
+Note: I had to use the following hook to make the precommit work
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "./node_modules/.bin/pretty-quick --staged && ./node_modules/.bin/eslint --ext .js lib/ --fix"
+    }
+  },
+```
+Installing some extra packages `npm i -D eslint eslint-config-prettier husky prettier pretty-quick`
 You can find more info about eslint rules [here](https://eslint.org/docs/rules/)
 
 ## Tips
