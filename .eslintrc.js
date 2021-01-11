@@ -59,6 +59,7 @@ module.exports = {
     "camelcase": ["error", { "properties": "never" }],
     "no-console": ["error", { "allow": ["warn", "error", "debug"] }],
     "no-debugger": "error",
-    "no-unused-vars": ["error", { "args": "after-used" }]
+    "no-unused-vars": ["error", { "args": "after-used" }],
+    "no-undef": "error"
   }
 }
